@@ -1,0 +1,56 @@
+.flex-container {
+    max-width:75rem;
+    display: flex;
+    flex-direction: row;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 1em auto 2em;
+    /* border: 4px solid red; */
+}
+
+.left-card {
+    line-height: 2.5;
+    margin-left: 4rem;
+    margin-top: 4rem;
+    margin-right: 3rem;
+}
+
+.grid-container {
+    margin-top: 3.5rem;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    grid-template-columns: auto auto auto;
+    justify-content: end;
+    /* border: 4px solid green; */
+}
+
+.grid-item {
+    height: inherit;
+    display: flex;
+    padding: 1px;
+    font-size: 30px;
+    justify-content: center;
+}
+
+.left-card-font {
+    width: 100%;
+    color: #444;
+    white-space: nowrap;
+    float: right;
+}
+
+button {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    background-color: white;
+    border: none;
+}
+
+p img {
+    margin-right: 12px;
+}
